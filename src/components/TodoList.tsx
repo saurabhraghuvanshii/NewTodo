@@ -35,15 +35,15 @@ export function TodoList({ initialTodos }: { initialTodos: Todo[] }) {
             {/* Stats chips */}
             <div className="flex gap-3 mb-6 flex-wrap">
                 <div className="chip chip-blue">
-                    <span style={{ fontSize: "14px" }}>📋</span>
+                    <span style={{ fontSize: "14px" }}></span>
                     {stats.total} Total
                 </div>
                 <div className="chip chip-yellow">
-                    <span style={{ fontSize: "14px" }}>⏳</span>
+                    <span style={{ fontSize: "14px" }}></span>
                     {stats.active} Active
                 </div>
                 <div className="chip chip-green">
-                    <span style={{ fontSize: "14px" }}>✅</span>
+                    <span style={{ fontSize: "14px" }}></span>
                     {stats.completed} Done
                 </div>
             </div>
@@ -74,7 +74,7 @@ export function TodoList({ initialTodos }: { initialTodos: Todo[] }) {
             <div className="space-y-3">
                 {filtered.length === 0 ? (
                     <div className="glass-panel p-12 text-center">
-                        <div className="text-4xl mb-4">🎯</div>
+                        <div className="text-4xl mb-4"></div>
                         <p className="text-lg font-medium" style={{ color: "var(--color-text-secondary)" }}>
                             {filter === "all" ? "No todos yet" : `No ${filter} todos`}
                         </p>

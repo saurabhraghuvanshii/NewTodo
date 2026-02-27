@@ -8,11 +8,11 @@ interface AddBookmarkModalProps {
 }
 
 const types = [
-    { value: "YOUTUBE", label: "YouTube", emoji: "🎬" },
-    { value: "TWEET", label: "Tweet", emoji: "🐦" },
-    { value: "PDF", label: "PDF", emoji: "📄" },
-    { value: "NOTION", label: "Notion", emoji: "📝" },
-    { value: "GENERIC", label: "Other", emoji: "🔗" },
+    { value: "YOUTUBE", label: "YouTube", emoji: "" },
+    { value: "TWEET", label: "Tweet", emoji: "" },
+    { value: "PDF", label: "PDF", emoji: "" },
+    { value: "NOTION", label: "Notion", emoji: "" },
+    { value: "GENERIC", label: "Other", emoji: "" },
 ];
 
 export function AddBookmarkModal({ onClose, onSubmit }: AddBookmarkModalProps) {

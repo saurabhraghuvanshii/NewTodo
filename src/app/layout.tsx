@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Liquid Todo — Elegant Task & Bookmark Manager",
+  title: "Liquid Todo",
   description:
-    "A premium dark-theme todo and bookmark manager with liquid blue design, Google OAuth, and rich embed support.",
+    "",
 };
 
 export default function RootLayout({

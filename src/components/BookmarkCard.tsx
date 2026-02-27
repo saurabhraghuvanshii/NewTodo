@@ -13,11 +13,11 @@ interface BookmarkCardProps {
 }
 
 const typeConfig: Record<string, { emoji: string; color: string; bg: string; border: string }> = {
-    YOUTUBE: { emoji: "🎬", color: "#ff4444", bg: "rgba(255,68,68,0.1)", border: "rgba(255,68,68,0.2)" },
-    TWEET: { emoji: "🐦", color: "#1da1f2", bg: "rgba(29,161,242,0.1)", border: "rgba(29,161,242,0.2)" },
-    PDF: { emoji: "📄", color: "#ff6b35", bg: "rgba(255,107,53,0.1)", border: "rgba(255,107,53,0.2)" },
-    NOTION: { emoji: "📝", color: "#fff", bg: "rgba(255,255,255,0.08)", border: "rgba(255,255,255,0.15)" },
-    GENERIC: { emoji: "🔗", color: "#8b95b0", bg: "rgba(139,149,176,0.1)", border: "rgba(139,149,176,0.2)" },
+    YOUTUBE: { emoji: "", color: "#ff4444", bg: "rgba(255,68,68,0.1)", border: "rgba(255,68,68,0.2)" },
+    TWEET: { emoji: "", color: "#1da1f2", bg: "rgba(29,161,242,0.1)", border: "rgba(29,161,242,0.2)" },
+    PDF: { emoji: "", color: "#ff6b35", bg: "rgba(255,107,53,0.1)", border: "rgba(255,107,53,0.2)" },
+    NOTION: { emoji: "", color: "#fff", bg: "rgba(255,255,255,0.08)", border: "rgba(255,255,255,0.15)" },
+    GENERIC: { emoji: "", color: "#8b95b0", bg: "rgba(139,149,176,0.1)", border: "rgba(139,149,176,0.2)" },
 };
 
 function getYouTubeId(url: string) {

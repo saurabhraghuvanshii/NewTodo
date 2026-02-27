@@ -35,12 +35,12 @@ const navItems = [
 ];
 
 const bookmarkFilters = [
-    { label: "All", type: "ALL", emoji: "📌" },
-    { label: "YouTube", type: "YOUTUBE", emoji: "🎬" },
-    { label: "Tweets", type: "TWEET", emoji: "🐦" },
-    { label: "PDFs", type: "PDF", emoji: "📄" },
-    { label: "Notion", type: "NOTION", emoji: "📝" },
-    { label: "Other", type: "GENERIC", emoji: "🔗" },
+    { label: "All", type: "ALL", emoji: "" },
+    { label: "YouTube", type: "YOUTUBE", emoji: "" },
+    { label: "Tweets", type: "TWEET", emoji: "" },
+    { label: "PDFs", type: "PDF", emoji: "" },
+    { label: "Notion", type: "NOTION", emoji: "" },
+    { label: "Other", type: "GENERIC", emoji: "" },
 ];
 
 export function Sidebar({ user }: SidebarProps) {

@@ -16,12 +16,12 @@ interface Bookmark {
 }
 
 const typeFilters = [
-    { label: "All", type: null, emoji: "📌" },
-    { label: "YouTube", type: "YOUTUBE", emoji: "🎬" },
-    { label: "Tweets", type: "TWEET", emoji: "🐦" },
-    { label: "PDFs", type: "PDF", emoji: "📄" },
-    { label: "Notion", type: "NOTION", emoji: "📝" },
-    { label: "Other", type: "GENERIC", emoji: "🔗" },
+    { label: "All", type: null, emoji: "" },
+    { label: "YouTube", type: "YOUTUBE", emoji: "" },
+    { label: "Tweets", type: "TWEET", emoji: "" },
+    { label: "PDFs", type: "PDF", emoji: "" },
+    { label: "Notion", type: "NOTION", emoji: "" },
+    { label: "Other", type: "GENERIC", emoji: "" },
 ];
 
 export function BookmarkList({
